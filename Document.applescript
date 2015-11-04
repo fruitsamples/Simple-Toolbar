@@ -25,7 +25,7 @@ on awake from nib theObject
 	set documentToolbar to make new toolbar at end with properties {name:"document toolbar", identifier:"document toolbar identifier", allows customization:true, auto sizes cells:true, display mode:default display mode, size mode:default size mode}
 	
 	-- Setup the allowed and default identifiers.
-	set allowed identifiers of documentToolbar to {"compile item identifier", "run item identifier", "stop item identifier", "print item identifier", "customize toolbar item identifer", "flexible space item identifer", "space item identifier", "separator item identifier"}
+	set allowed identifiers of documentToolbar to {"compile item identifier", "run item identifier", "stop item identifier", "print item identifier", "customize toolbar item identifier", "flexible space item identifier", "space item identifier", "separator item identifier"}
 	set default identifiers of documentToolbar to {"compile item identifier", "run item identifier", "stop item identifier"}
 	
 	--set selectable identifiers of documentToolbar to {}
